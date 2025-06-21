@@ -15,15 +15,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: npm
-
+      - uses: oven-sh/setup-bun@v2
       - name: Install dependencies
-        run: npm ci
+        run: bun install
       - name: Build website
-        run: npm build --dev
+        run: bun run build --dev
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
