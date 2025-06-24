@@ -13,7 +13,7 @@ Magisk doesn't support root hiding or any of the hiding steps, so to get Magisk 
 + [ReZygisk](sybau)
 + [Nohello](sybau)
 + [Nohello-Compat](sybau)
-+ LSPosed (either the mod version or IT is fine for Android <= 15, IT for 16+)
++ LSPosed (either the mod version or IT is fine for Android 15-, IT for 16+)
 + [Treat Wheel](t.me/performancorg) (find the Treat Wheel.zip file here)
 
 ### Play Integrity
