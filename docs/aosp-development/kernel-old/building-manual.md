@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Building (the manual way)
 
 This will help you on building kernels (12 or older)
