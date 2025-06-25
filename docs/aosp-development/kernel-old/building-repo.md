@@ -13,7 +13,7 @@ This will help you on building kernels (12 or older)
 Clone the manifest, replace `manifest.xml` with actual one (e.g. `AU_LINUX_KERNEL.PLATFORM.1.0.R1.00.00.00.000.189.xml`), you can find the one you need by searching
 on Telegram with the board you base on (e.g. `taro` would use the manifest file above).
 
-```
+```bash
 repo init -u https://git.codelinaro.org/clo/la/kernelplatform/manifest/ -b release -m <manifest.xml> --depth 1
 ```
 
@@ -23,19 +23,19 @@ repo init -u https://git.codelinaro.org/clo/la/kernelplatform/manifest/ -b relea
 
 Clone the manifest, replace `<branch>` with actual one (e.g. `common-android12-5.10`), you can find the one you need by searching https://android.googlesource.com/kernel/manifest/+refs
 
-```
+```bash
 repo init -u https://android.googlesource.com/kernel/manifest -b <branch> --depth 1
 ```
 
 ### Sync the sources
 
-```
+```bash
 repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags
 ```
 
 ### (Optional) Set optimized build environment variables
 
-```
+```bash
 export CC="ccache clang"
 export LTO=thin
 ```
@@ -44,7 +44,7 @@ export LTO=thin
 
 Replace `BUILD_CONFIG` value with the config you want to use but generally we'll be building for GKI platform
 
-```
+```bash
 export BUILD_CONFIG=common/build.config.gki.aarch64
 ./build/build.sh
 ```
