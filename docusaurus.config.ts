@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/teppyboy/nguyen-mai/tree/main/docs/',
+            'https://github.com/teppyboy/nguyen-mai/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/teppyboy/nguyen-mai/tree/main/blog/',
+            'https://github.com/teppyboy/nguyen-mai/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -71,7 +71,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/126090215_p0.png',
     navbar: {
       title: 'Nguyễn Mai',
       logo: {

@@ -56,7 +56,7 @@ Then export these variables
 
 ```bash
 export ARCH="arm64"
-export CC="clang ccache"
+export CC="ccache clang"
 export LTO="thin"
 export PATH="$(realpath ../build/build-tools/path/linux-x86):$(realpath ../$CLANG_PREBUILT_BIN):$(realpath ../build/build-tools/path/linux-x86):$(realpath ./out/android12-5.10/common/host_tools):$PATH"
 ```
