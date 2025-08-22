@@ -8,14 +8,19 @@ Magisk doesn't support root hiding or any of the hiding steps, so to get Magisk 
 
 ## Modules
 
-### Required
+Either use this combination
 
-+ [ReZygisk](https://github.com/PerformanC/ReZygisk/actions) (use the CI builds)
-+ LSPosed (either the mod version or IT is fine for Android 15-, IT for 16+)
++ [ReZygisk](https://github.com/PerformanC/ReZygisk/actions) (use the CI builds for best experience)
 + [Treat Wheel](https://t.me/performancorg) (find the Treat Wheel.zip file here)
-+ [MMRL](https://github.com/MMRLApp/MMRL) (An app)
++ [Nohello](https://github.com/MhmRdd/NoHello/actions) (if it conflicts find "mod" version in Telegram)
 
-#### Root hiding
-Use one of these modules
-+ [Nohello](https://github.com/MhmRdd/NoHello/actions) / Nohello Compat (in Telegram)
-+ Shamiko
+or
+
++ [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext)
++ [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases)
+
+DO NOT MIX THEM AS THEY WILL CONFLICT AND WILL NOT WORK.
+
+#### Optional
++ [MMRL](https://github.com/MMRLApp/MMRL) - A module manager app with the capability to search modules from repositories online.
+
