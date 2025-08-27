@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Play Integrity (Strong)
 
 This will cover the most basic way to get Play Integrity with STRONG verdict.
@@ -9,7 +12,7 @@ This will cover the most basic way to get Play Integrity with STRONG verdict.
 Install these 
 
 + [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest)
-+ [Tricky Store](https://github.com/5ec1cff/TrickyStore/releases/latest) (or use forks)
++ [Tricky Store OSS](https://github.com/beakthoven/TrickyStoreOSS/releases/latest) / [Tricky Store](https://github.com/5ec1cff/TrickyStore/releases/latest) (latest proprietary version is on Telegram)
 + A keybox provider
 
 or
@@ -39,6 +42,7 @@ Do the following:
 
 + Open the manager
 + Tap "Play" button on PIF Fork and wait
++ Then follow the method below for the keybox provider you use.
 
 ### Tricky Addon
 

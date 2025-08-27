@@ -45,6 +45,8 @@ First, cd to `common`
 cd common
 ```
 
+Apply whatever patches you want to your kernel here (e.g. SukiSU), then after that do the following:
+
 To simplify our lives, we'll use environment variables defined by build configs
 
 ```bash

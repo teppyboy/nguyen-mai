@@ -50,4 +50,4 @@ Place the `Image` to the current directory, and now execute this command to crea
 
 Fill the missing fields with the information above, and if command line args is empty then you can ignore the argument. The new boot image will be named `my_boot.img` in the current working directory. 
 
-Congrats on your custom kernel :D, now you're ready to apply KernelSU/SukiSU or whatever patches on them!
+Congrats on your custom kernel :D, now you're ready to flash them on your devices!
