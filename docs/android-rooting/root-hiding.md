@@ -14,7 +14,7 @@ Magisk doesn't support root hiding or any of the hiding steps, so to get Magisk 
 Either use this combination
 
 + [ReZygisk](https://github.com/PerformanC/ReZygisk/actions) (use the CI builds for best experience)
-+ [Treat Wheel](https://t.me/performancorg) (find the Treat Wheel.zip file here)
++ [Treat Wheel](https://t.me/zygote64_32)
 + [Nohello](https://github.com/MhmRdd/NoHello/actions) (if it conflicts find "mod" version in Telegram)
 
 or

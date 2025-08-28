@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 ---
-# LineageOS
+# Lineage-based ROMs
 
 This guide will help you bypass root detection on Lineage based roms.
 
