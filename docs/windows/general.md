@@ -25,4 +25,4 @@ Generally you would be using these tools to optimize the OS.
 
 ### Native NVME driver
 
-In Windows 11 25H2 and higher, there exists a native NVME driver that offers better performance than the current one (current one is NVME <-> SCSI then Windows will read that SCSI). To install it simply download the [batch file](../../scripts/windows/25h2/Native%20NVMe%20Win11%20by%20Koekieezz%20and%20ZenKromaT-v1.2.bat) and run, credits to the original author of the script.
+In Windows 11 25H2 and higher, there exists a native NVME driver that offers better performance than the current one (current one is NVME to SCSI then Windows will read that SCSI). To install it simply download the [batch file](../../scripts/windows/25h2/Native%20NVMe%20Win11%20by%20Koekieezz%20and%20ZenKromaT-v1.2.bat) and run, credits to the original author of the script.
