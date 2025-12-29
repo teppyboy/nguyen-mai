@@ -6,12 +6,10 @@ Atlas OS is a playbook script to automatically tweaks your existing Windows inst
 
 ## Precaution
 
-> [!WARNING]
 > AME Wizard does NOT uses the publicly released TrustedUninstaller.CLI as its backend in latest versions, much features don't work in the open source version but does work in the proprietary ones, so consider what you'll be using to load the playbook.
 
 ## Installation
 
-> [!WARNING]
 > It is preferred to use the GitHub Actions build instead, as it provides latest support for the latest Windows versions.
 
 ### From GitHub Actions
