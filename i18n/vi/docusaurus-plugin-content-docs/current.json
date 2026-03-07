@@ -1,0 +1,62 @@
+{
+  "version.label": {
+    "message": "Mới",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.AOSP Development": {
+    "message": "AOSP Development",
+    "description": "The label for category AOSP Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AOSP Development.link.generated-index.description": {
+    "message": "Documentation for compiling AOSP kernels, building custom ROMs, and more.",
+    "description": "The generated-index page description for category AOSP Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kernel (12 and older)": {
+    "message": "Kernel (12 and older)",
+    "description": "The label for category Kernel (12 and older) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kernel (12 and older).link.generated-index.description": {
+    "message": "Documentation for compiling AOSP kernels (12 and older)",
+    "description": "The generated-index page description for category Kernel (12 and older) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Android Rooting": {
+    "message": "Android Rooting",
+    "description": "The label for category Android Rooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Android Rooting.link.generated-index.description": {
+    "message": "Documentation related to android rooting & hiding.",
+    "description": "The generated-index page description for category Android Rooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Play Integrity (Strong)": {
+    "message": "Play Integrity (Strong)",
+    "description": "The label for category Play Integrity (Strong) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Play Integrity (Strong).link.generated-index.description": {
+    "message": "Documentation related to bypassing Play Integrity API to get STRONG verdict.",
+    "description": "The generated-index page description for category Play Integrity (Strong) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Root Hiding": {
+    "message": "Advanced Root Hiding",
+    "description": "The label for category Advanced Root Hiding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Root Hiding.link.generated-index.description": {
+    "message": "This is a separated section for advanced root hiding techniques, written by an user who rooted his primary device :P",
+    "description": "The generated-index page description for category Advanced Root Hiding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Windows": {
+    "message": "Windows",
+    "description": "The label for category Windows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Windows.link.generated-index.description": {
+    "message": "Documentation for compiling AOSP kernels, building custom ROMs, and more.",
+    "description": "The generated-index page description for category Windows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tweaks": {
+    "message": "Tweaks",
+    "description": "The label for category Tweaks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tweaks.link.generated-index.description": {
+    "message": "Documentation for Windows tweaks and optimizations.",
+    "description": "The generated-index page description for category Tweaks in sidebar tutorialSidebar"
+  }
+}

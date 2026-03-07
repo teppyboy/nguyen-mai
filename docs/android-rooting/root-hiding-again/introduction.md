@@ -3,33 +3,31 @@ sidebar_position: 1
 ---
 # Introduction to Advanced Root Hiding
 
-*I'll write this section in Vietnamese since it's more natural for me to express myself in my native language, and I hope it won't be a problem for you.*  🇻🇳
+## Preparation
+- Your device should've been rooted using KernelSU or its forks (I didn't test Magisk so idk).
+- You have a broad knowledge of rooting and how it works.
+- ALWAYS backup your data before doing anything important (including just installing a module - it can brick your device).
+- Wish for the best outcome, and don't be disappointed if you fail :)
 
-*@teppyboy pls translate this to English for me* :sob:
+## Notes
+- Most root solutions are open source, and their forks sometimes deliver better hiding (e.g. KernelSU-Next vs KernelSU). If there are multiple options for you, you should use these forks which are more frequently maintained, better communities, ...
+- Some root checking apps can check for root traces and give detailed results so you don't have to guess, e.g. [Native Detector](https://github.com/reveny/Android-Native-Root-Detector), ...
+- As of my knowledge, if you let LSPosed hook into an app then that app will immediately detect root, so for these apps it's better to NOT use any LSPosed modules. Still, if you want to try then go ahead, find your own way (and contribute back to us please)
 
-## Cần chuẩn bị gì trước khi bắt đầu?
-- Thiết bị của bạn có thể root bằng KernelSU hoặc các bản fork của nó. (tôi không sử dụng Magisk nên cũng không biết...)
-- Bạn đã có kiến thức cơ bản về root và cách hoạt động của nó.
-- Luôn sao lưu mọi dữ liệu quan trọng trước khi thực hiện bất kỳ thay đổi nào trên thiết bị của bạn (dù chỉ đơn giản là update một module nào đó).
-- Bạn nên chuẩn bị sẵn một tâm hồn đẹp nữa :P (ý tôi là, hôm nay nó hoạt động nhưng không có gì đảm bảo ngày mai nó vẫn hoạt động đâu)
-
-## Vài lưu ý nhỏ
-- Đa phần các giải pháp ẩn root đều là dự án mã nguồn mở, và thường những bản fork của những dự án lớn trong đó lại ẩn root tốt hơn cả bản gốc (thường được đặt tên thêm hậu tố -Next). Nếu có nhiều lựa chọn, bạn nên ưu tiên những bản fork đang được commit thuờng xuyên hơn, có cộng đồng hoạt động tích cực hơn, ...
-- Một số app root checker có thể kiểm tra root và đưa kết quả cụ thể cho bạn để bạn đỡ phải đoán mò, như [Native Detector](https://github.com/reveny/Android-Native-Root-Detector), ...
-- Theo hiểu biết đến hiện tai của mình, cứ để LSPosed hook vào app nào là app đấy check ra root ngay, nên là với những app như vậy thì không có cách nào hay hơn ngoài việc đừng để một module LSPosed nào hook vào nó cả, còn nếu bạn vẫn muốn thì tự tìm cách đi.
-
-## Setup hiện tại của tôi, bạn có thể tham khảo nếu muốn
+## My setup for reference
 :::info
-Hiện tại tôi đang root trên Google Pixel 6, phiên bản Android 16 (latest release) và kernel android14-6.1. Tôi không dùng custom rom, nên cũng không biết ẩn tuy nhiên vì tôi dùng làm máy chính nên tôi không muốn làm mọi thứ phức tạp hơn cần thiết đâu, tôi sẽ chỉ tập trung vào việc ẩn root thôi, còn những thứ khác thì... có lẽ là không 😛
+I'm using root in a Google Pixel 6 (oriole) with Android 16 (latest release) and kernel `android14-6.1`. I don't use custom roms, so I don't know how to hide custom rom traces. As this is my main device, I don't want everything to be complicated, so I'll just focus on root hiding, for other things then... you're on your own 😛
 :::
-- [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) v3.0.0 (và có thể mới hơn)
+- [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next) v3.0.0 (can be newer)
 - [SuSFS](https://gitlab.com/simonpunk/susfs4ksu) v2.0.0
-- AnyKernel3: [WildKernels GKI](https://github.com/WildKernels/GKI_KernelSU_SUSFS) (patch sẵn 2 cái trên luôn, quá tiện)
+- AnyKernel3: [WildKernels GKI](https://github.com/WildKernels/GKI_KernelSU_SUSFS) (Include both KSU-Next and SUSFS :thumbsup:)
 - Metamodule: [Hybrid Mount](https://github.com/KernelSU-Modules-Repo/hybrid_mount)
 - Zygisk: [Zygisk Next](https://github.com/Dr-TSNG/ZygiskNext)
-- Play Integrity: [Integrity Box](https://github.com/MeowDump/Integrity-Box) và [TEESimulator](https://github.com/JingMatrix/TEESimulator)
+- Play Integrity: [Integrity Box](https://github.com/MeowDump/Integrity-Box) and [TEESimulator](https://github.com/JingMatrix/TEESimulator)
 
 <a><img src="/img/Screenshot_20260307-223813.png" width="400"/></a>
 <a><img src="/img/Screenshot_20260308-020427.png" width="400"/></a>
 
-***Cảm ơn bạn đã chịu khó đọc đến đây, giờ hãy qua chương khác đi nhé, tôi không thích nói nhiều cho lắm đâu*** 😛
+***Thanks for reading until here, now please go to other chapters, I don't like to talk much here*** 😛
+
+> I translated for ya, for the god sake this doesn't use AI to translate :)

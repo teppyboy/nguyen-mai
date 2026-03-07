@@ -1,43 +1,70 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
-  title: string;
+  title: ReactNode;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: (
+      <Translate
+        id="homepage.features.easy.title"
+        description="Title for the easy-to-use feature card on homepage">
+        Easy to Use
+      </Translate>
+    ),
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
-      <>
+      <Translate
+        id="homepage.features.easy.description"
+        description="Description for the easy-to-use feature card on homepage">
         Docusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: (
+      <Translate
+        id="homepage.features.focus.title"
+        description="Title for the focus feature card on homepage">
+        Focus on What Matters
+      </Translate>
+    ),
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate
+        id="homepage.features.focus.description"
+        description="Description for the focus feature card on homepage"
+        values={{docsDir: <code>docs</code>}}>
+        {
+          "Docusaurus lets you focus on your docs, and we'll do the chores. Go ahead and move your docs into the {docsDir} directory."
+        }
+      </Translate>
     ),
   },
   {
-    title: 'Powered by React',
+    title: (
+      <Translate
+        id="homepage.features.react.title"
+        description="Title for the React feature card on homepage">
+        Powered by React
+      </Translate>
+    ),
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
+      <Translate
+        id="homepage.features.react.description"
+        description="Description for the React feature card on homepage">
         Extend or customize your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
-      </>
+      </Translate>
     ),
   },
 ];

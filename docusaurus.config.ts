@@ -44,6 +44,16 @@ const config: Config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'vi'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-US',
+        label: 'English',
+      },
+      vi: {
+        htmlLang: 'vi-VN',
+        label: 'Tiếng Việt',
+      },
+    },
   },
 
   presets: [
@@ -97,8 +107,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/teppyboy/nguyen-mai',
-          label: 'GitHub',
+          type: 'localeDropdown',
           position: 'right',
         },
       ],

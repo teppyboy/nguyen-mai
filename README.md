@@ -14,7 +14,21 @@ yarn
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This command builds and serves all locales together, so both `http://localhost:3000/` (English) and `http://localhost:3000/vi/` (Vietnamese) are available.
+
+If `/vi/` appears blank after switching scripts, do a hard refresh (`Ctrl+F5`) to clear stale browser assets.
+
+For live-reload development in English only:
+
+```bash
+yarn start:en
+```
+
+For live-reload development in Vietnamese only:
+
+```bash
+yarn start:vi
+```
 
 ## Build
 
