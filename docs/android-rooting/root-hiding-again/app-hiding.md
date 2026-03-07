@@ -1,0 +1,20 @@
+---
+sidebar_position: 4
+---
+# App Hiding
+
+*Thực sự là khá nhiều app xác định thiết bị đã root chỉ vì phát hiện có package name của một vài app đáng ngờ (root managers, app hệ thống của custom rom, một số app cần quyền root để hoạt động, v.v...). Cách này cá nhân tôi thấy khá là buồn cười vì kể cả khi không root nhưng trên thiết bị có những app như vậy vẫn bị coi là đã root =))) Nhưng không sao, mình có thể ẩn chúng đi mà...*
+Về cơ bản, có 2 cách để ẩn app:
+
+## Ẩn bằng cách đổi package name, hoặc đơn giản là xóa nó đi luôn
+Cái này thì khỏi phải nói nhiều. Một vài root manager hay app khác tác giả có thể cung cấp sẵn một phiên bản đã được đổi package name, bạn chỉ cần sử dụng những phiên bản đó. Hoặc với những app mã nguồn mở và bạn thực sự rảnh thì có thể tự sửa mã nguồn rồi tự build lại đi. Hoặc xoá nó đi luôn, thì bạn không dùng app đó nữa, có vậy thôi :P
+
+## Ẩn bằng cách fake list app đã cài đặt
+Chúng ta có khá nhiều module có thể làm được việc này, như [HMAL](https://github.com/Dr-TSNG/Hide-My-Applist), [HMA-OSS](https://github.com/frknkrc44/HMA-OSS), ... thường dưới dạng module LSPosed chỉ hook vào system framework. Mình dùng HMA-OSS vì có khá nhiều tính năng và có sẵn preset, đỡ phải tự tạo đau đầu :D
+
+> *Cách dùng cũng rất đơn giản, chọn app mục tiêu bạn muốn ẩn các app nhạy cảm khỏi nó, rồi thêm preset vào là xong. Nhìn giao diện bạn có thể tự hiểu.* 👍
+> <a><img src="/img/Screenshot_20260308-025851.png" width="400"/></a>
+
+:::tip
+Ngoài ẩn app ra thì HMA-OSS còn có cả preset ẩn trạng thái developer options hay accessibility service nữa, khá mì ăn liền nếu bạn muốn dùng app ngân hàng :nerd:
+:::
