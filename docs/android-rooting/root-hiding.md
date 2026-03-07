@@ -55,4 +55,4 @@ Check [LineageOS/BShield](./lineage.md#bshield) for more information.
 
 ### How do I get Play Integrity with STRONG verdict?
 
-Check [Play Integrity](./play-integrity.md) for more information.
+Check [Play Integrity](/docs/category/play-integrity-strong) for more information.
