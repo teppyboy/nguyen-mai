@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "bun@1.3.10",
   "scripts": {
-    "content:build": "bunx --bun fumadocs-mdx",
+    "content:build": "bunx --bun fumadocs-mdx source.config.ts source-generated",
     "dev": "next dev --turbopack",
     "build": "bun run content:build && next build --turbopack",
     "preview": "bunx serve out",

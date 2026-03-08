@@ -35,7 +35,7 @@
     "**/*.tsx",
     ".next/types/routes.d.ts",
     ".next/types/validator.ts",
-    ".source/**/*.ts",
+    "source-generated/**/*.ts",
     ".next/dev/types/**/*.ts",
     ".next/types/**/*.ts"
   ],

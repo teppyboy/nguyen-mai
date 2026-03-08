@@ -26,6 +26,8 @@ const nextConfig = {
   },
 };
 
-const withMDX = createMDX();
+const withMDX = createMDX({
+  outDir: 'source-generated',
+});
 
 export default withMDX(nextConfig);

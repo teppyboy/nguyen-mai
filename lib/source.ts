@@ -1,6 +1,6 @@
 import type { ComponentType } from 'react';
 import { loader } from 'fumadocs-core/source';
-import { blog, docs } from '../.source';
+import { blog, docs } from '../source-generated/server';
 import { i18n } from '@/lib/i18n';
 import { localePrefix } from '@/lib/site';
 
@@ -30,9 +30,9 @@ const docsCollection = docs as unknown as {
 };
 
 const blogCollection = blog as unknown as Array<{
-  _file: {
+  info: {
     path: string;
-    absolutePath: string;
+    fullPath: string;
   };
 }>;
 
@@ -52,8 +52,8 @@ export const blogSource = loader({
   source: {
     files: blogCollection.map((entry) => ({
       type: 'page' as const,
-      path: entry._file.path,
-      absolutePath: entry._file.absolutePath,
+      path: entry.info.path,
+      absolutePath: entry.info.fullPath,
       data: entry,
     })),
   },

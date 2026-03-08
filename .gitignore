@@ -6,7 +6,7 @@
 /out
 
 # Generated content collections
-/.source
+/source-generated
 
 # Misc
 .DS_Store

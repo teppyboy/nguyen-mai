@@ -21,7 +21,7 @@ This repository is a fully static `Next.js + Fumadocs` site deployed to GitHub P
   - `lib/i18n.ts` defines locale configuration.
   - `lib/dictionaries.ts` stores UI copy for English and Vietnamese.
   - `lib/layout.shared.tsx` defines shared Fumadocs layout options.
-  - `lib/fumadocs-mdx-runtime.ts` is a compatibility shim used by generated `.source` files.
+  - `lib/fumadocs-mdx-runtime.ts` is a compatibility shim used by generated `source-generated/` files.
 - `public/`
   - Static assets are served from here.
   - `public/CNAME` keeps the GitHub Pages custom domain.
@@ -48,7 +48,7 @@ This repository is a fully static `Next.js + Fumadocs` site deployed to GitHub P
 - Start local development with `bun run dev`.
 - Create the static export with `bun run build`.
 - Preview the export with `bun run preview`.
-- `bun run build` first regenerates the Fumadocs `.source/` directory via `bunx --bun fumadocs-mdx`, so CI and local builds do not rely on checked-in generated files.
+- `bun run build` first regenerates the Fumadocs `source-generated/` directory via `bunx --bun fumadocs-mdx source.config.ts source-generated`, so CI and local builds do not rely on checked-in generated files.
 - The scripts use Turbopack. Keep the `fumadocs-mdx` alias in `next.config.mjs` aligned with `lib/fumadocs-mdx-runtime.ts` so Fumadocs MDX content continues to build correctly.
 
 ## Guardrails for future changes
