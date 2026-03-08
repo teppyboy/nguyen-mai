@@ -1,55 +1,44 @@
-# Website
+# Nguyen Mai
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is a fully static `Next.js + Fumadocs` site built for GitHub Pages and deployed on the custom domain `https://nguyen-mai.tretrauit.me`.
 
-## Installation
+## Stack
 
-```bash
-yarn
-```
+- Next.js App Router
+- Fumadocs UI default theme
+- Fumadocs MDX collections for docs and blog content
+- Bun for package management and scripts
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command builds and serves all locales together, so both `http://localhost:3000/` (English) and `http://localhost:3000/vi/` (Vietnamese) are available.
-
-If `/vi/` appears blank after switching scripts, do a hard refresh (`Ctrl+F5`) to clear stale browser assets.
-
-For live-reload development in English only:
+## Local development
 
 ```bash
-yarn start:en
+bun install
+bun run dev
 ```
 
-For live-reload development in Vietnamese only:
-
-```bash
-yarn start:vi
-```
+The dev server and production build use Turbopack. `next.config.mjs` aliases `fumadocs-mdx` to `lib/fumadocs-mdx-runtime.ts` so the Fumadocs MDX pipeline still works with the static export.
 
 ## Build
 
 ```bash
-yarn build
+bun run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This exports a static site into `out/`.
+
+## Preview the export
+
+```bash
+bun run preview
+```
+
+## Content locations
+
+- English docs: `content/docs/en`
+- Vietnamese docs: `content/docs/vi`
+- English blog: `content/blog/en`
+- Vietnamese blog: `content/blog/vi`
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+GitHub Actions builds the static export and uploads `out/` to GitHub Pages. The custom domain is stored in `public/CNAME`.

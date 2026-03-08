@@ -1,0 +1,11 @@
+{
+  "title": "Kernel (12 and older)",
+  "pages": [
+    "index",
+    "dependency",
+    "building-repo",
+    "building-manual",
+    "packaging",
+    "bootable-image-legacy"
+  ]
+}

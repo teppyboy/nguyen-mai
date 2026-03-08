@@ -1,12 +1,12 @@
 # Dependencies
 /node_modules
 
-# Production
-/build
+# Next.js output
+/.next
+/out
 
-# Generated files
-.docusaurus
-.cache-loader
+# Generated content collections
+/.source
 
 # Misc
 .DS_Store
@@ -15,6 +15,7 @@
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
