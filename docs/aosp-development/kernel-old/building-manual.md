@@ -37,15 +37,17 @@ Then after that, clone the kernel source to the `common` folder, where `<kernel 
 git clone <kernel source> common --depth 1
 ```
 
-### Set build environment variables
+### Working with the kernel source
 
-First, cd to `common`
+Change directory to `common`
 
 ```bash
 cd common
 ```
 
-Apply whatever patches you want to your kernel here (e.g. SukiSU), then after that do the following:
+Apply whatever patches you want to your kernel here (e.g. KernelSU/SukiSU/etc.), then after that proceed to the next step.
+
+### Set build environment variables
 
 To simplify our lives, we'll use environment variables defined by build configs
 
@@ -60,8 +62,10 @@ Then export these variables
 export ARCH="arm64"
 export CC="ccache clang"
 export LTO="thin"
-export PATH="$(realpath ../build/build-tools/path/linux-x86):$(realpath ../$CLANG_PREBUILT_BIN):$(realpath ../build/build-tools/path/linux-x86):$(realpath ./out/android12-5.10/common/host_tools):$PATH"
+export PATH="$(realpath ../build/build-tools/path/linux-x86):$(realpath ../$CLANG_PREBUILT_BIN):$(realpath ../build/build-tools/path/linux-x86):$(realpath ./out/<manifest version>/common/host_tools):$PATH"
 ```
+
+Where `<manifest version>` is `android12-5.10` or depends on which version of the manifest you use (e.g. `common-android12-5.10`) 
 
 Ignore any error you encountered, as long as the kernel builds then it's fine.
 

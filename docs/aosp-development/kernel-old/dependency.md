@@ -3,7 +3,11 @@ sidebar_position: 1
 ---
 # Dependency
 
-Install the needed dependencies to compile, on Ubuntu (Firebase Studio) you would execute the following command:
+Install the needed dependencies to compile the kernel 
+
+## Ubuntu (Firebase Studio) 
+
+Execute the following command:
 
 ```
 sudo apt update -y
@@ -11,3 +15,7 @@ sudo apt install -y ccache device-tree-compiler lz4 xz-utils zlib1g-dev openjdk-
 ccache -M 50G
 ccache -o compression=true
 ```
+
+## Arch Linux
+
+TODO, but throw to AI slop the command above and it should give you the Arch Linux equivalent.

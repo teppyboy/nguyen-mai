@@ -11,18 +11,23 @@ This will cover the most basic way to get Play Integrity with STRONG verdict.
 
 Install these 
 
-+ [PIF-Inject](https://github.com/KOWX712/PlayIntegrityFix/actions) (use GitHub CI builds) / [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest) / [PIF Next](https://github.com/EricInacio01/PlayIntegrityFix-NEXT) (for WebUI)
-+ [Tricky Store OSS](https://github.com/beakthoven/TrickyStoreOSS/releases/latest) / [Tricky Store](https://github.com/5ec1cff/TrickyStore/releases/latest) (latest proprietary version is on Telegram)
++ [PIF-Inject](https://github.com/KOWX712/PlayIntegrityFix/actions) (use GitHub CI builds) (recommended) / [PIF Fork](https://github.com/osm0sis/PlayIntegrityFork/releases/latest) (Android 11 and lower) / [PIF Next](https://github.com/EricInacio01/PlayIntegrityFix-NEXT) (for WebUI)
++ [TEESimulator](https://github.com/JingMatrix/TEESimulator) (recommended) / [Tricky Store](https://github.com/5ec1cff/TrickyStore/releases/latest) / [Tricky Store OSS](https://github.com/beakthoven/TrickyStoreOSS/releases/latest) (abandoned)
 + A keybox provider
 
 or
 
 + Integrity Wizard (you'll need to find this module manually)
 
+:::warning
+It is known that the above module might be a scam, do NOT buy the module if instructed to do so.
+:::
+
 #### Keybox provider
 
 Install either one of these modules
-+ [Tricky Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases/latest) (recommended)
++ [Integrity Box](https://github.com/MeowDump/Integrity-Box) (recommended)
++ [Tricky Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases/latest) 
 + [TSupport Advance](https://www.dropbox.com/scl/fi/vaqw80238bp5d7xdvn9kg/TSupport-Advance.zip?rlkey=sx3dl2wea0782alndqj9sz8qi&st=b5zuucjn&dl=1)
 
 ### Optional modules
@@ -66,6 +71,10 @@ Do the following:
 ### Set the keybox
 
 Follow the instructions below for the keybox provider you use.
+
+#### Integrity Box
+
+It is VERY straightforward to use, just follow the UI and it should work automatically.
 
 #### Tricky Addon
 

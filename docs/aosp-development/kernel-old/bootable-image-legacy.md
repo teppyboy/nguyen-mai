@@ -7,9 +7,13 @@ For legacy devices where boot.img contains ramdisk, you'll have to extract ramdi
 
 If you don't have existing boot.img, you can download the prebuilt boot.img matching your kernel from [KernelSU releases](https://github.com/tiann/KernelSU/releases) or [Android.com](https://source.android.com/docs/core/architecture/kernel/gki-release-builds)
 
-> It is STRONGLY recommended to download `boot.img` which is known to work on your devices, or else it'll be unbootable. You can test them by using `fastboot boot <boot.img>` to see if it boots on your device.
+:::warning
+It is STRONGLY recommended to download `boot.img` which is known to work on your devices, or else it'll be unbootable. You can test them by using `fastboot boot <boot.img>` to see if it boots on your device.
+:::
 
-> Refer to official tutorial for more information: https://source.android.com/docs/setup/build/building-kernels#id-bootimage-no-init-boot
+:::info
+Refer to official tutorial for more information: https://source.android.com/docs/setup/build/building-kernels#id-bootimage-no-init-boot
+:::
 
 ## Clone the mkbootimg source
 

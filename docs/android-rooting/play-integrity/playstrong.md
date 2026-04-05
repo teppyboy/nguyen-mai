@@ -8,7 +8,7 @@ This will cover how to get Play Integrity with STRONG verdict using PlayStrong X
 ## Required dependencies
 
 ### System modules
-+ LSPosed: [JingMatrix/LSPosed](https://github.com/JingMatrix/LSPosed/actions) (OSS) / LSPosed IT (proprietary)
++ Xposed: [JingMatrix/Vector](https://github.com/JingMatrix/Vector) (OSS) / LSPosed IT (proprietary)
 
 ### Xposed modules
 
@@ -23,6 +23,7 @@ This will cover how to get Play Integrity with STRONG verdict using PlayStrong X
 4. Reboot the device
 5. Open `PlayStrong` and downgrade Play Store as instructed (select either version).
 6. Open `PlayStrong` again to confirm that it is working as intended.
+7. (Optional) Find a RKA server and put it here, free servers are available sometimes.
 7. Enjoy!
 
 ## [FAQ](./modules.md#faq)
