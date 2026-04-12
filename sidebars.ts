@@ -37,6 +37,11 @@ const sidebars: SidebarsConfig = {
             'aosp-development/kernel-old/bootable-image-legacy',
           ],
         },
+        {
+          type: 'doc',
+          id: 'aosp-development/pixel-ksu-susfs-kernel',
+          label: 'Pixel KSU + SUSFS Kernel',
+        }
       ],
     },
     {
