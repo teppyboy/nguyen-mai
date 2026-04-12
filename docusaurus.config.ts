@@ -14,7 +14,7 @@ const config: Config = {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
     },
-    experimental_faster: {
+    faster: {
       swcJsLoader: true,
       swcJsMinimizer: true,
       swcHtmlMinimizer: true,
