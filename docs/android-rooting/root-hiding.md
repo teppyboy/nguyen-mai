@@ -1,6 +1,3 @@
----
-sidebar_position: 2
----
 # Root Hiding
 
 So, you want to use Magisk but without being detected by banking apps? Then this guide is for you :D. Note that for better hiding results, consider using KernelSU/APatch/KernelSU-Next/SukiSU which implemented root hiding in mind.
@@ -55,4 +52,4 @@ Check [LineageOS/BShield](./lineage.md#bshield) for more information.
 
 ### How do I get Play Integrity with STRONG verdict?
 
-Check [Play Integrity](/docs/category/play-integrity-strong) for more information.
+Check [Play Integrity](/docs/android-rooting/play-integrity/playstrong.md) for more information.

@@ -171,7 +171,5 @@ sudo dnf install -y \
   dos2unix kmod openssl \
   perl cpio repo
 ```
-*Provided by Claude* :nerd:
+*Provided by Claude* 🤓
 :::
-
-*Written by Yuuki ([@im-yuuki](https://github.com/im-yuuki)). Last updated: April 13, 2026.*

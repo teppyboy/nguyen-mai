@@ -1,8 +1,8 @@
 # Dependencies
-/node_modules
+node_modules/
 
 # Production
-/build
+build/
 
 # Generated files
 .docusaurus
@@ -14,11 +14,18 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.cache
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+cache/
+dist/
+
 # IDEs and editors
 .vscode/
 .idea/
+
+# My workspace
+.migration/

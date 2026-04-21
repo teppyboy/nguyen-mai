@@ -1,6 +1,3 @@
----
-sidebar_position: 2
----
 # PlayStrong
 
 This will cover how to get Play Integrity with STRONG verdict using PlayStrong Xposed module.

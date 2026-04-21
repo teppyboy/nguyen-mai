@@ -1,6 +1,3 @@
----
-sidebar_position: 3
----
 # Building (the semi-manual way)
 
 This will help you on building kernels from source code (12 or older)

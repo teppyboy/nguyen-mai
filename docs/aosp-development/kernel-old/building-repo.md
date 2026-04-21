@@ -1,6 +1,3 @@
----
-sidebar_position: 2
----
 # Building (the repo way)
 
 This will help you on building kernels (12 or older)

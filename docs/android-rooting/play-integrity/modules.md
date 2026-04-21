@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # Using modules
 
 This will cover the most basic way to get Play Integrity with STRONG verdict.
