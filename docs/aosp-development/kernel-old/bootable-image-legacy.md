@@ -1,6 +1,3 @@
----
-sidebar_position: 6
----
 # Create a bootable image (boot.img) (legacy)
 
 For legacy devices where boot.img contains ramdisk, you'll have to extract ramdisk from a prebuilt image itself and then append to ours.

@@ -1,6 +1,3 @@
----
-sidebar_position: 5
----
 # Packaging (AnyKernel3)
 
 This will help you on packaging the kernel for ready to use as a ZIP file.

@@ -1,9 +1,0 @@
-{
-    "label": "Play Integrity (Strong)",
-    "position": 3,
-    "link": {
-      "type": "generated-index",
-      "description": "Documentation related to bypassing Play Integrity API to get STRONG verdict."
-    }
-  }
-  

@@ -1,6 +1,3 @@
----
-sidebar_position: 4
----
 # App Hiding
 
 *Thực sự là khá nhiều app xác định thiết bị đã root chỉ vì phát hiện có package name của một vài app đáng ngờ (root managers, app hệ thống của custom rom, một số app cần quyền root để hoạt động, v.v...). Cách này cá nhân tôi thấy khá là buồn cười vì kể cả khi không root nhưng trên thiết bị có những app như vậy vẫn bị coi là đã root =))) Nhưng không sao, mình có thể ẩn chúng đi mà...*
