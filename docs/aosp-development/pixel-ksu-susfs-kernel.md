@@ -75,9 +75,9 @@ git clone https://gitlab.com/pershoot/susfs4ksu.git -b gki-android14-6.1-dev --d
 
 New folder `susfs4ksu` should appear. Then copy the patch files to the kernel source code:
 ```bash
-cp susfs4ksu/patches/50_add_susfs_in_gki-android14-6.1.patch  common/
-cp susfs4ksu/kernel_patches/fs/*                              common/fs/
-cp susfs4ksu/kernel_patches/include/linux/*                   common/include/linux/
+cp susfs4ksu/kernel_patches/50_add_susfs_in_gki-android14-6.1.patch  common/
+cp susfs4ksu/kernel_patches/fs/*                                     common/fs/
+cp susfs4ksu/kernel_patches/include/linux/*                          common/include/linux/
 ```
 
 Patch the kernel:
@@ -108,7 +108,7 @@ This fork is pre-applied with the patch to support integration with SuSFS, you d
 
 ### 6. Build the patched kernel
 
-:::note
+:::warning
 Before building, you need to:
 
 1. Remove protected exports and patch files (otherwise WiFi, Bluetooth, and some other drivers won't work):
