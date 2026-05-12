@@ -1,4 +1,4 @@
-# Pixel Kernel with KernelSU and SuSFS
+# Pixel Kernel (latest)
 
 *If you had bad experience with the prebuilt kernels like [WildKernels](https://github.com/WildKernels/GKI_KernelSU_SUSFS), e.g. random reboots, crashes, failed drivers, etc... you can try patching the kernel from exactly the same source code as Google provides with their releases to get more stable and reliable kernel.*
 

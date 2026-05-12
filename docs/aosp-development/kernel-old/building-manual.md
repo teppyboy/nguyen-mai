@@ -4,7 +4,7 @@ This will help you on building kernels from source code (12 or older)
 
 ## Guide
 
-### Cloning the needed build tools
+### 1. Cloning the needed build tools
 
 To simplify our life, we'll use `repo` (yes) to clone these.
 
@@ -20,7 +20,7 @@ Sync the sources
 repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags
 ```
 
-### Cloning the kernel source
+### 2. Cloning the kernel source
 
 First, we'll remove the `common` folder which contains the generic kernel.
 
@@ -34,7 +34,7 @@ Then after that, clone the kernel source to the `common` folder, where `<kernel 
 git clone <kernel source> common --depth 1
 ```
 
-### Working with the kernel source
+### 3. Working with the kernel source
 
 Change directory to `common`
 
@@ -42,7 +42,10 @@ Change directory to `common`
 cd common
 ```
 
-Apply whatever patches you want to your kernel here (e.g. KernelSU/SukiSU/etc.), then after that proceed to the next step.
+Apply whatever patches you want to your kernel here, below are some tutorials for popular patches ;)
+- [KernelSU and its forks](../patches/kernelsu.md)
+
+Then after that proceed to the next step.
 
 ### Set build environment variables
 
